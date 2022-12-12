@@ -44,6 +44,30 @@ class ProductsManager with ChangeNotifier {
           'https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/b29d648e1e1694eb704ae7e88099028f/Modifier_Chips_lge.png?h=900',
       isFavorite: true,
     ),
+
+    Product(
+      id: 'p5',
+      title: 'Sliced ​​Chicken Rice',
+      description: 'cơm dẻo, thịt ngon',
+      price: 29.99,
+      imageUrl:
+          /* https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg' */
+          /* 'https://cdn.pixabay.com/photo/2014/01/23/19/34/french-fries-250641_960_720.jpg' */
+          'https://static.kfcvietnam.com.vn/images/items/lg/Rice-Skewer.jpg?v=pg91Mg',
+      isFavorite: true,
+    ),
+
+    Product(
+      id: 'p6',
+      title: 'Chemicals',
+      description: 'Thơm ngon béo',
+      price: 18.99,
+      imageUrl:
+          /* https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg' */
+          /* 'https://cdn.pixabay.com/photo/2014/01/23/19/34/french-fries-250641_960_720.jpg' */
+          'https://static.kfcvietnam.com.vn/images/items/lg/6-Chewy-Cheese.jpg?v=pg91Mg',
+      isFavorite: true,
+    ),
   ];
 
   void addProduct(Product product) {
